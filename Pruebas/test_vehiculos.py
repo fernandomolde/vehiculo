@@ -28,7 +28,7 @@ class Test_Bus(unittest.TestCase):
         b = vehiculos.Bus('Toyota',180,2000)
         b.set_capacidad(150)
         capa_b = b.capacidad
-        vehiculos.Vehiculos.color = 'amarillo'
-        c = vehiculos.Vehiculos()
+        #vehiculos.Vehiculos.color = 'amarillo'
+        # c = vehiculos.Vehiculos()
         self.assertEqual(capa_b,150)
-        self.assertEqual(c.color,'blanco')
+        self.assertEqual(b.color,'blanco')
