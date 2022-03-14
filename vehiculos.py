@@ -15,3 +15,4 @@ class Bus(Vehiculos):
     
     def set_capacidad(self,nueva_capacidad=50):
         self.capacidad = nueva_capacidad
+        
